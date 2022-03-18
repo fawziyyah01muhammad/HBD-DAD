@@ -1,0 +1,107 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+/******* FACILITIES ******/
+#facilities{
+    background: linear-gradient(rgba(0, 0.5, 0, 0.5), rgba(0, 0.5, 0, 0.5)),url(../img/papa\ 3.jpg);
+    min-height: 120vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+#facilities h1{
+font-weight: 900;
+font-size: 32px;
+padding-bottom: 5px;
+text-align:left;
+padding-top: 30px;
+color: rgb(219, 216, 219);
+}
+#facilities p{
+    color:wheat;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30%;
+}
+#facilities h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#facilities h5{
+    color: wheat;
+    text-align: right;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+  /* Bootstrap custome carousel */
+.carousel-indicators .active {
+    color: blue !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 60%;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+  }
+
+@media(max-width:700px){
+    #facilities{
+        background-image: linear-gradient(rgba(0, 0.5, 0, 0.5), rgba(0, 0.5, 0, 0.5)), url(../img/papa.jpg);
+        min-height: 100vh;
+    }
+    #facilities h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    #facilities p{
+        font-size: 10px;
+        padding-top: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
